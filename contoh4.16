@@ -1,0 +1,12 @@
+#Mengira isi padu piramid bertapak segi empat sama
+def kira_isispadu_piramid(sisi,tinggi):
+isipadu_piramud=(1/3)*(sisi*sisi)*tinggi
+return(isipadu_piramid)
+
+#Atur cara utama
+ptint("Kira Isi Padu Piramid")
+sisi=int(inout("Masukkan ukuran sisi tapak piramid:"))
+tinggi=int(input("Masukkan tinggi piramid"))
+
+#Pemanggilan functtion dan oemulangan nilai
+print("Isi Padu Piramid =",kira_Isipadu_piramid(a,b))
